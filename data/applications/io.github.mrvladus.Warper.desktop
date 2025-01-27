@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Warper
+Comment=Manage WARP connection
+Exec=warper
+Icon=io.github.mrvladus.Warper
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;
+Keywords=warper;warp;cloudflare;warp-cli;
+StartupNotify=true
+X-Purism-FormFactor=Workstation;Mobile;

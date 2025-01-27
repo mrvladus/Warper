@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<component type="desktop-application">
+  <id>io.github.mrvladus.Warper</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Warper</name>
+  <summary>Manage WARP connection</summary>
+  <developer id="github.com">
+    <name translate="no">Vlad Krupinskii</name>
+  </developer>
+  <description>
+    <p>GUI for managing warp-cli</p>
+  </description>
+  <launchable type="desktop-id">io.github.mrvladus.Warper.desktop</launchable>
+  <provides>
+    <binary>warper</binary>
+  </provides>
+  <branding>
+    <color type="primary" scheme_preference="light">#a9a9da</color>
+    <color type="primary" scheme_preference="dark">#45457c</color>
+  </branding>
+  <content_rating type="oars-1.1" />
+  <url type="bugtracker">https://github.com/mrvladus/Warper/issues</url>
+  <url type="homepage">https://github.com/mrvladus/Warper</url>
+  <url type="vcs-browser">https://github.com/mrvladus/Warper/</url>
+  <screenshots>
+    <screenshot type="default">
+      <image
+            >https://raw.githubusercontent.com/mrvladus/Warper/main/screenshots/main.png</image>
+      <caption>Main Window View</caption>
+    </screenshot>
+  </screenshots>
+  <recommends>
+    <control>touch</control>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>tablet</control>
+    <internet>always</internet>
+  </recommends>
+  <custom>
+    <value key="Purism::form_factor">mobile</value>
+  </custom>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <releases>
+    <release version="1.0" date="2025-01-26">
+        <description translate="no">
+            <p>First release</p>
+        </description>
+    </release>
+  </releases>
+</component>
